@@ -2,13 +2,10 @@ module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
-    devserver: { server: {} },
+    devserver: { server: {}, options: { port: 8000 } },
     concat: {
-      options: {
-        separator: ";",
-      },
       dist: {
-        src: ["src/*.js"],
+        src: ["js/random.js", "js/entity.js", "src/input.js"],
         dest: "build/<%= pkg.name %>.js",
       },
     },
