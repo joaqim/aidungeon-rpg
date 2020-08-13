@@ -1,0 +1,18 @@
+{
+  "name": "aidungeon-rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.2.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-devserver": "^0.6.0",
+    "grunt-terser": "^1.0.0"
+  }
+}
